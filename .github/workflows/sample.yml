@@ -18,3 +18,9 @@ jobs:
           print
           (platform.processor())
         shell: python
+      - name: Directory1
+        run: Get_Location
+      - name: Directory Bash
+        run: pwd
+        shell: Bash
+        
