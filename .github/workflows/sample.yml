@@ -22,7 +22,7 @@ jobs:
           (platform.processor())
         shell: python
       - name: Directory
-        run: Get_Location
+        run: Get-Location
       - name: Directory Bash
         run: pwd
         shell: Bash
