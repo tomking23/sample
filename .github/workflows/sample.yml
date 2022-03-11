@@ -22,7 +22,7 @@ jobs:
           print
           (platform.processor())
         shell: python
-      - name: Directory
+      - name: Directory1
         run: Get-Location
       - name: Directory Bash
         run: pwd
