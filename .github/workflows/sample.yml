@@ -23,7 +23,9 @@ jobs:
           (platform.processor())
         shell: python
       - name: Directory1
-        run: Get-Location
+        run: |
+          Get-Location
+           node -v
       - name: Directory Bash
         run: pwd
         shell: Bash
